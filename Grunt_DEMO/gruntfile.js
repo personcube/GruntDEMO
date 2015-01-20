@@ -1,4 +1,12 @@
 'use strict';
+
+var today = new Date();
+var hh = today.getHours();
+var mm = today.getMinutes() ; //January is 0!
+var ss = today.getSeconds() ;
+var today = "_"+hh + mm + ss ;
+
+
 module.exports = function (grunt) {
 
     // Configure `curl` with URLs
@@ -29,10 +37,11 @@ module.exports = function (grunt) {
                 url: 'http://maven.ampf.com/artifactory/npm-local/data2.0.1.js'
                         
             },
-            dest:'JSScripts/data.js'
+            dest: 'JSScripts/data' + today + '.js'
         }
     }
 });
+
 
     // Load in `grunt-curl`
     grunt.loadNpmTasks('grunt-curl');
