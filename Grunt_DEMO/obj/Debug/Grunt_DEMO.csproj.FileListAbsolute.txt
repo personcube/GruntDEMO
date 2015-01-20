@@ -49,7 +49,6 @@ c:\users\gsharm11\documents\visual studio 2013\Projects\Grunt_DEMO\Grunt_DEMO\bi
 c:\users\gsharm11\documents\visual studio 2013\Projects\Grunt_DEMO\Grunt_DEMO\obj\Debug\Grunt_DEMO.csprojResolveAssemblyReference.cache
 c:\users\gsharm11\documents\visual studio 2013\Projects\Grunt_DEMO\Grunt_DEMO\obj\Debug\Grunt_DEMO.dll
 c:\users\gsharm11\documents\visual studio 2013\Projects\Grunt_DEMO\Grunt_DEMO\obj\Debug\Grunt_DEMO.pdb
-C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Grunt_DEMO.dll.config
 C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Grunt_DEMO.dll
 C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Grunt_DEMO.pdb
 C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Antlr3.Runtime.dll

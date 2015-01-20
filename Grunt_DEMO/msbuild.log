@@ -1,0 +1,1135 @@
+Build started 1/20/2015 12:40:05 PM.
+Overriding target "GetFrameworkPaths" in project "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" with target "GetFrameworkPaths" from project "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.NetFramework.targets".
+Overriding target "SatelliteDllsProjectOutputGroup" in project "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" with target "SatelliteDllsProjectOutputGroup" from project "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets".
+Project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" on node 1 (rebuild target(s)).
+Building with tools version "12.0".
+Target "_CheckForInvalidConfigurationAndPlatform" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (entry point):
+Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+Using "Message" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "Message"
+  Configuration=Debug
+Done executing task "Message".
+Task "Message"
+  Platform=AnyCPU
+Done executing task "Message".
+Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('bin\' != '' and !HasTrailingSlash('bin\')).
+Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('obj\Debug\' != '' and !HasTrailingSlash('obj\Debug\')).
+Done building target "_CheckForInvalidConfigurationAndPlatform" in project "Grunt_DEMO.csproj".
+Target "BeforeRebuild" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "Rebuild" depends on it):
+Done building target "BeforeRebuild" in project "Grunt_DEMO.csproj".
+Target "BeforeClean" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "Clean" depends on it):
+Done building target "BeforeClean" in project "Grunt_DEMO.csproj".
+Target "UnmanagedUnregistration" skipped, due to false condition; ((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+                    ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+                   Exists('@(_UnmanagedRegistrationCache)')) was evaluated as ((('' != '' or '' != 'true' or 'Library' != 'library') or
+                    ('' == '')) and
+                   Exists('obj\Grunt_DEMO.csproj.UnmanagedRegistration.cache')).
+Target "CoreClean" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "Clean" depends on it):
+Using "Delete" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "Delete"
+Done executing task "Delete".
+Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "ReadLinesFromFile"
+Done executing task "ReadLinesFromFile".
+Using "FindUnderPath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "FindUnderPath"
+  Comparison path is "bin\".
+Done executing task "FindUnderPath".
+Task "FindUnderPath"
+  Comparison path is "obj\Debug\".
+Done executing task "FindUnderPath".
+Task "Delete"
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Grunt_DEMO.dll".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Grunt_DEMO.pdb".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Antlr3.Runtime.dll".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\AspNet.ScriptManager.bootstrap.dll".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\AspNet.ScriptManager.jQuery.dll".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\EntityFramework.dll".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\EntityFramework.SqlServer.dll".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Microsoft.AspNet.FriendlyUrls.dll".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Microsoft.AspNet.Identity.Core.dll".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Microsoft.AspNet.Identity.EntityFramework.dll".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Microsoft.AspNet.Identity.Owin.dll".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Microsoft.Owin.dll".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Microsoft.Owin.Host.SystemWeb.dll".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Microsoft.Owin.Security.Cookies.dll".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Microsoft.Owin.Security.dll".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Microsoft.Owin.Security.Facebook.dll".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Microsoft.Owin.Security.Google.dll".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Microsoft.Owin.Security.MicrosoftAccount.dll".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Microsoft.Owin.Security.OAuth.dll".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Microsoft.Owin.Security.Twitter.dll".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Microsoft.ScriptManager.MSAjax.dll".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Microsoft.ScriptManager.WebForms.dll".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Microsoft.Web.Infrastructure.dll".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Newtonsoft.Json.dll".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Owin.dll".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\System.Web.Optimization.dll".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\System.Web.Providers.dll".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\WebGrease.dll".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\System.Web.Optimization.xml".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Antlr3.Runtime.pdb".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Newtonsoft.Json.xml".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Microsoft.AspNet.FriendlyUrls.xml".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\EntityFramework.xml".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\EntityFramework.SqlServer.xml".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Microsoft.AspNet.Identity.Core.xml".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Microsoft.AspNet.Identity.Owin.xml".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Microsoft.AspNet.Identity.EntityFramework.xml".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Microsoft.Owin.xml".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Microsoft.Owin.Host.SystemWeb.xml".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Microsoft.Owin.Security.xml".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Microsoft.Owin.Security.Facebook.xml".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Microsoft.Owin.Security.Cookies.xml".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Microsoft.Owin.Security.Google.xml".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Microsoft.Owin.Security.Twitter.xml".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Microsoft.Owin.Security.MicrosoftAccount.xml".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Microsoft.Owin.Security.OAuth.xml".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\obj\Debug\Grunt_DEMO.csprojResolveAssemblyReference.cache".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\obj\Debug\Grunt_DEMO.dll".
+  Deleting file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\obj\Debug\Grunt_DEMO.pdb".
+Done executing task "Delete".
+Using "RemoveDuplicates" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "RemoveDuplicates"
+Done executing task "RemoveDuplicates".
+Using "MakeDir" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "MakeDir"
+Done executing task "MakeDir".
+Using "WriteLinesToFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "WriteLinesToFile"
+Done executing task "WriteLinesToFile".
+Done building target "CoreClean" in project "Grunt_DEMO.csproj".
+Target "AssignProjectConfiguration" skipped, due to false condition; ('$(CurrentSolutionConfigurationContents)' != '' or '@(ProjectReference)'!='') was evaluated as ('' != '' or ''!='').
+Target "_SplitProjectReferencesByFileExistence" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "CleanReferencedProjects" depends on it):
+Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as (''=='true' and ''!='').
+Done building target "_SplitProjectReferencesByFileExistence" in project "Grunt_DEMO.csproj".
+Target "CleanReferencedProjects" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "Clean" depends on it):
+Task "MSBuild" skipped, due to false condition; ('$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' != 'true' and 'true' == 'true' and '' != '').
+Done building target "CleanReferencedProjects" in project "Grunt_DEMO.csproj".
+Target "CleanPublishFolder" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "Clean" depends on it):
+Task "RemoveDir" skipped, due to false condition; ('$(PublishDir)'=='$(OutputPath)app.publish\' and Exists('$(PublishDir)')) was evaluated as ('bin\app.publish\'=='bin\app.publish\' and Exists('bin\app.publish\')).
+Done building target "CleanPublishFolder" in project "Grunt_DEMO.csproj".
+Target "AfterClean" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "Clean" depends on it):
+Done building target "AfterClean" in project "Grunt_DEMO.csproj".
+Target "EntityClean" skipped, due to false condition; ('@(EntityDeploy)' != '') was evaluated as ('' != '').
+Target "CleanWebProjectOutputDir" skipped, due to false condition; ($(CleanWebProjectOutputDir)) was evaluated as (False).
+Target "Clean" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "Rebuild" depends on it):
+Done building target "Clean" in project "Grunt_DEMO.csproj".
+Target "CleanXsdCodeGen" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.ServiceModel.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "Rebuild" depends on it):
+Task "Delete"
+Done executing task "Delete".
+Done building target "CleanXsdCodeGen" in project "Grunt_DEMO.csproj".
+Target "EntityDeploy" skipped, due to false condition; ('@(EntityDeploy)' != '') was evaluated as ('' != '').
+Target "BeforeBuild" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "Build" depends on it):
+Done building target "BeforeBuild" in project "Grunt_DEMO.csproj".
+Target "BuildOnlySettings" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "CoreBuild" depends on it):
+Done building target "BuildOnlySettings" in project "Grunt_DEMO.csproj".
+Target "GetFrameworkPaths" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.NetFramework.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "PrepareForBuild" depends on it):
+Done building target "GetFrameworkPaths" in project "Grunt_DEMO.csproj".
+Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+Target "GetReferenceAssemblyPaths" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "PrepareForBuild" depends on it):
+Using "GetReferenceAssemblyPaths" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "GetReferenceAssemblyPaths"
+Done executing task "GetReferenceAssemblyPaths".
+Done building target "GetReferenceAssemblyPaths" in project "Grunt_DEMO.csproj".
+Target "PrepareForBuild" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "CoreBuild" depends on it):
+Using "FindAppConfigFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "FindAppConfigFile"
+Done executing task "FindAppConfigFile".
+Task "MakeDir"
+Done executing task "MakeDir".
+Done building target "PrepareForBuild" in project "Grunt_DEMO.csproj".
+Target "PreBuildEvent" skipped, due to false condition; ('$(PreBuildEvent)'!='') was evaluated as (''!='').
+Target "BeforeResolveReferences" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "ResolveReferences" depends on it):
+Done building target "BeforeResolveReferences" in project "Grunt_DEMO.csproj".
+Target "AssignProjectConfiguration" skipped, due to false condition; ('$(CurrentSolutionConfigurationContents)' != '' or '@(ProjectReference)'!='') was evaluated as ('' != '' or ''!='').
+Target "AssignProjectConfiguration" skipped, due to false condition; ('$(CurrentSolutionConfigurationContents)' != '' or '@(ProjectReference)'!='') was evaluated as ('' != '' or ''!='').
+Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+Target "ResolveProjectReferences" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "ResolveReferences" depends on it):
+Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('' == 'true' or 'true' != 'true') and '10.0' != '10.0' and '' != '').
+Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('' == 'true' or 'true' != 'true') and '10.0' == '10.0' and '' != '').
+Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and '' != 'true' and 'true' == 'true' and '' != '').
+Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
+Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('' != '' and '' != '').
+Done building target "ResolveProjectReferences" in project "Grunt_DEMO.csproj".
+Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+Target "GetFrameworkPaths" skipped. Previously built successfully.
+Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+Target "PrepareForBuild" skipped. Previously built successfully.
+Target "GetInstalledSDKLocations" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "ResolveSDKReferences" depends on it):
+Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
+Done building target "GetInstalledSDKLocations" in project "Grunt_DEMO.csproj".
+Target "ResolveSDKReferences" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "ResolveAssemblyReferences" depends on it):
+Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
+Done building target "ResolveSDKReferences" in project "Grunt_DEMO.csproj".
+Target "ResolveSDKReferences" skipped. Previously built successfully.
+Target "ExpandSDKReferences" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "ResolveAssemblyReferences" depends on it):
+Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
+Done building target "ExpandSDKReferences" in project "Grunt_DEMO.csproj".
+Target "ResolveAssemblyReferences" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "ResolveReferences" depends on it):
+Using "ResolveAssemblyReference" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "ResolveAssemblyReference"
+  TargetFrameworkMoniker:
+      .NETFramework,Version=v4.5
+  TargetFrameworkMonikerDisplayName:
+      .NET Framework 4.5
+  TargetedRuntimeVersion:
+      v4.0.30319
+  Assemblies:
+      Microsoft.CSharp
+      System.ComponentModel.DataAnnotations
+      System
+      System.Data
+      System.Data.DataSetExtensions
+      System.Web.Extensions
+      System.Xml.Linq
+      System.Drawing
+      System.Web
+      System.Xml
+      System.Configuration
+      System.Web.Services
+      System.EnterpriseServices
+      System.Web.DynamicData
+      System.Web.Entity
+      System.Web.ApplicationServices
+      Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
+          Private = 'True'
+          HintPath = '..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll'
+      AspNet.ScriptManager.bootstrap
+          HintPath = '..\packages\AspNet.ScriptManager.bootstrap.3.0.0\lib\net45\AspNet.ScriptManager.bootstrap.dll'
+      AspNet.ScriptManager.jQuery
+          HintPath = '..\packages\AspNet.ScriptManager.jQuery.1.10.2\lib\net45\AspNet.ScriptManager.jQuery.dll'
+      Microsoft.ScriptManager.MSAjax
+          HintPath = '..\packages\Microsoft.AspNet.ScriptManager.MSAjax.5.0.0\lib\net45\Microsoft.ScriptManager.MSAjax.dll'
+      Microsoft.ScriptManager.WebForms
+          HintPath = '..\packages\Microsoft.AspNet.ScriptManager.WebForms.5.0.0\lib\net45\Microsoft.ScriptManager.WebForms.dll'
+      System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+          HintPath = '..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll'
+      WebGrease
+          Private = 'True'
+          HintPath = '..\packages\WebGrease.1.5.2\lib\WebGrease.dll'
+      Antlr3.Runtime
+          Private = 'True'
+          HintPath = '..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll'
+      Newtonsoft.Json
+          Private = 'True'
+          HintPath = '..\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll'
+      Microsoft.AspNet.Web.Optimization.WebForms
+          Private = 'True'
+          HintPath = '..\packages\Microsoft.AspNet.Web.Optimization.WebForms.1.1.3\lib\net45\Microsoft.AspNet.Web.Optimization.WebForms.dll'
+      Microsoft.AspNet.FriendlyUrls
+          HintPath = '..\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.dll'
+      EntityFramework
+          HintPath = '..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll'
+      EntityFramework.SqlServer
+          HintPath = '..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.dll'
+      Microsoft.AspNet.Identity.Core
+          HintPath = '..\packages\Microsoft.AspNet.Identity.Core.2.0.0\lib\net45\Microsoft.AspNet.Identity.Core.dll'
+      Microsoft.AspNet.Identity.Owin
+          HintPath = '..\packages\Microsoft.AspNet.Identity.Owin.2.0.0\lib\net45\Microsoft.AspNet.Identity.Owin.dll'
+      Microsoft.AspNet.Identity.EntityFramework
+          HintPath = '..\packages\Microsoft.AspNet.Identity.EntityFramework.2.0.0\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll'
+      System.Web.Providers
+          HintPath = '..\packages\Microsoft.AspNet.Providers.Core.1.2\lib\net40\System.Web.Providers.dll'
+      Microsoft.Owin
+          HintPath = '..\packages\Microsoft.Owin.2.1.0\lib\net45\Microsoft.Owin.dll'
+      Microsoft.Owin.Host.SystemWeb
+          HintPath = '..\packages\Microsoft.Owin.Host.SystemWeb.2.1.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll'
+      Microsoft.Owin.Security
+          HintPath = '..\packages\Microsoft.Owin.Security.2.1.0\lib\net45\Microsoft.Owin.Security.dll'
+      Microsoft.Owin.Security.Facebook
+          HintPath = '..\packages\Microsoft.Owin.Security.Facebook.2.1.0\lib\net45\Microsoft.Owin.Security.Facebook.dll'
+      Microsoft.Owin.Security.Cookies
+          HintPath = '..\packages\Microsoft.Owin.Security.Cookies.2.1.0\lib\net45\Microsoft.Owin.Security.Cookies.dll'
+      Microsoft.Owin.Security.Google
+          HintPath = '..\packages\Microsoft.Owin.Security.Google.2.1.0\lib\net45\Microsoft.Owin.Security.Google.dll'
+      Microsoft.Owin.Security.Twitter
+          HintPath = '..\packages\Microsoft.Owin.Security.Twitter.2.1.0\lib\net45\Microsoft.Owin.Security.Twitter.dll'
+      Microsoft.Owin.Security.MicrosoftAccount
+          HintPath = '..\packages\Microsoft.Owin.Security.MicrosoftAccount.2.1.0\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll'
+      Owin
+          HintPath = '..\packages\Owin.1.0\lib\net40\Owin.dll'
+      Microsoft.Owin.Security.OAuth
+          HintPath = '..\packages\Microsoft.Owin.Security.OAuth.2.1.0\lib\net45\Microsoft.Owin.Security.OAuth.dll'
+      System.Core
+  AssemblyFiles:
+      C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll
+  CandidateAssemblyFiles:
+  TargetFrameworkDirectories:
+      C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\,C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\
+  InstalledAssemblyTables:
+  IgnoreInstalledAssemblyTable:
+      False
+  SearchPaths:
+      {CandidateAssemblyFiles}
+      {HintPathFromItem}
+      {TargetFrameworkDirectory}
+      {Registry:Software\Microsoft\.NETFramework,v4.5,AssemblyFoldersEx}
+      {AssemblyFolders}
+      {GAC}
+      {RawFileName}
+      bin\
+  AllowedAssemblyExtensions:
+      .winmd
+      .dll
+      .exe
+  AllowedRelatedFileExtensions:
+      .pdb
+      .xml
+      .pri
+  AppConfigFile:
+      
+  AutoUnify:
+      False
+  CopyLocalDependenciesWhenParentReferenceInGac:
+      True
+  FindDependencies:
+      True
+  TargetProcessorArchitecture:
+      x86
+  StateFile:
+      obj\Debug\Grunt_DEMO.csprojResolveAssemblyReference.cache
+  InstalledAssemblySubsetTables:
+  IgnoreInstalledAssemblySubsetTable:
+      False
+  TargetFrameworkSubsets:
+  FullTargetFrameworkSubsetNames:
+      Full
+  ProfileName:
+      
+  FullFrameworkFolders:
+      C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\
+  LatestTargetFrameworkDirectories:
+  ProfileTablesLocation:
+  Unified primary reference "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Using this version instead of original version "2.0.0.0" in "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll" because there is a more recent version of this framework file.
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll".
+      Reference found at search path location "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll".
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Microsoft.CSharp.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Microsoft.CSharp.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.ComponentModel.DataAnnotations.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.ComponentModel.DataAnnotations.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Unified primary reference "System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Using this version instead of original version "2.0.0.0" in "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll" because there is a more recent version of this framework file.
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.DataSetExtensions.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.DataSetExtensions.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Web.Extensions.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Web.Extensions.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.Linq.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.Linq.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Web.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Web.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Configuration.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Configuration.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Web.Services.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Web.Services.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.EnterpriseServices.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.EnterpriseServices.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "System.Web.DynamicData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Web.DynamicData.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Web.DynamicData.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "System.Web.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Web.Entity.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Web.Entity.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "System.Web.ApplicationServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Web.ApplicationServices.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Web.ApplicationServices.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      Resolved file path is "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll".
+      Reference found at search path location "{HintPathFromItem}".
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "AspNet.ScriptManager.bootstrap, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null".
+      Resolved file path is "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\AspNet.ScriptManager.bootstrap.3.0.0\lib\net45\AspNet.ScriptManager.bootstrap.dll".
+      Reference found at search path location "{HintPathFromItem}".
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "AspNet.ScriptManager.jQuery, Version=1.10.2.0, Culture=neutral, PublicKeyToken=null".
+      Resolved file path is "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\AspNet.ScriptManager.jQuery.1.10.2\lib\net45\AspNet.ScriptManager.jQuery.dll".
+      Reference found at search path location "{HintPathFromItem}".
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "Microsoft.ScriptManager.MSAjax, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      Resolved file path is "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.ScriptManager.MSAjax.5.0.0\lib\net45\Microsoft.ScriptManager.MSAjax.dll".
+      Reference found at search path location "{HintPathFromItem}".
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "Microsoft.ScriptManager.WebForms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      Resolved file path is "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.ScriptManager.WebForms.5.0.0\lib\net45\Microsoft.ScriptManager.WebForms.dll".
+      Reference found at search path location "{HintPathFromItem}".
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      Resolved file path is "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll".
+      Reference found at search path location "{HintPathFromItem}".
+      Found related file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.xml".
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "WebGrease, Version=1.5.2.14234, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      Resolved file path is "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\WebGrease.1.5.2\lib\WebGrease.dll".
+      Reference found at search path location "{HintPathFromItem}".
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "Antlr3.Runtime, Version=3.4.1.9004, Culture=neutral, PublicKeyToken=eb42632606e9261f".
+      Resolved file path is "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll".
+      Reference found at search path location "{HintPathFromItem}".
+      Found related file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.pdb".
+      The ImageRuntimeVersion for this reference is "v2.0.50727".
+  Primary reference "Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed".
+      Resolved file path is "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll".
+      Reference found at search path location "{HintPathFromItem}".
+      Found related file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.xml".
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "Microsoft.AspNet.Web.Optimization.WebForms, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      Resolved file path is "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Web.Optimization.WebForms.1.1.3\lib\net45\Microsoft.AspNet.Web.Optimization.WebForms.dll".
+      Reference found at search path location "{HintPathFromItem}".
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "Microsoft.AspNet.FriendlyUrls, Version=1.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      Resolved file path is "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.dll".
+      Reference found at search path location "{HintPathFromItem}".
+      Found related file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.xml".
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Resolved file path is "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll".
+      Reference found at search path location "{HintPathFromItem}".
+      Found related file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.xml".
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Resolved file path is "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.dll".
+      Reference found at search path location "{HintPathFromItem}".
+      Found related file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.xml".
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      Resolved file path is "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Identity.Core.2.0.0\lib\net45\Microsoft.AspNet.Identity.Core.dll".
+      Reference found at search path location "{HintPathFromItem}".
+      Found related file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Identity.Core.2.0.0\lib\net45\Microsoft.AspNet.Identity.Core.xml".
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "Microsoft.AspNet.Identity.Owin, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      Resolved file path is "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Identity.Owin.2.0.0\lib\net45\Microsoft.AspNet.Identity.Owin.dll".
+      Reference found at search path location "{HintPathFromItem}".
+      Found related file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Identity.Owin.2.0.0\lib\net45\Microsoft.AspNet.Identity.Owin.xml".
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "Microsoft.AspNet.Identity.EntityFramework, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      Resolved file path is "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Identity.EntityFramework.2.0.0\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll".
+      Reference found at search path location "{HintPathFromItem}".
+      Found related file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Identity.EntityFramework.2.0.0\lib\net45\Microsoft.AspNet.Identity.EntityFramework.xml".
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "System.Web.Providers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      Resolved file path is "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Providers.Core.1.2\lib\net40\System.Web.Providers.dll".
+      Reference found at search path location "{HintPathFromItem}".
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "Microsoft.Owin, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      Resolved file path is "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.2.1.0\lib\net45\Microsoft.Owin.dll".
+      Reference found at search path location "{HintPathFromItem}".
+      Found related file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.2.1.0\lib\net45\Microsoft.Owin.xml".
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "Microsoft.Owin.Host.SystemWeb, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      Resolved file path is "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Host.SystemWeb.2.1.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll".
+      Reference found at search path location "{HintPathFromItem}".
+      Found related file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Host.SystemWeb.2.1.0\lib\net45\Microsoft.Owin.Host.SystemWeb.xml".
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "Microsoft.Owin.Security, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      Resolved file path is "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.2.1.0\lib\net45\Microsoft.Owin.Security.dll".
+      Reference found at search path location "{HintPathFromItem}".
+      Found related file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.2.1.0\lib\net45\Microsoft.Owin.Security.xml".
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "Microsoft.Owin.Security.Facebook, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      Resolved file path is "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.Facebook.2.1.0\lib\net45\Microsoft.Owin.Security.Facebook.dll".
+      Reference found at search path location "{HintPathFromItem}".
+      Found related file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.Facebook.2.1.0\lib\net45\Microsoft.Owin.Security.Facebook.xml".
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "Microsoft.Owin.Security.Cookies, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      Resolved file path is "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.Cookies.2.1.0\lib\net45\Microsoft.Owin.Security.Cookies.dll".
+      Reference found at search path location "{HintPathFromItem}".
+      Found related file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.Cookies.2.1.0\lib\net45\Microsoft.Owin.Security.Cookies.xml".
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "Microsoft.Owin.Security.Google, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      Resolved file path is "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.Google.2.1.0\lib\net45\Microsoft.Owin.Security.Google.dll".
+      Reference found at search path location "{HintPathFromItem}".
+      Found related file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.Google.2.1.0\lib\net45\Microsoft.Owin.Security.Google.xml".
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "Microsoft.Owin.Security.Twitter, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      Resolved file path is "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.Twitter.2.1.0\lib\net45\Microsoft.Owin.Security.Twitter.dll".
+      Reference found at search path location "{HintPathFromItem}".
+      Found related file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.Twitter.2.1.0\lib\net45\Microsoft.Owin.Security.Twitter.xml".
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "Microsoft.Owin.Security.MicrosoftAccount, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      Resolved file path is "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.MicrosoftAccount.2.1.0\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll".
+      Reference found at search path location "{HintPathFromItem}".
+      Found related file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.MicrosoftAccount.2.1.0\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.xml".
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5".
+      Resolved file path is "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Owin.1.0\lib\net40\Owin.dll".
+      Reference found at search path location "{HintPathFromItem}".
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "Microsoft.Owin.Security.OAuth, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      Resolved file path is "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.OAuth.2.1.0\lib\net45\Microsoft.Owin.Security.OAuth.dll".
+      Reference found at search path location "{HintPathFromItem}".
+      Found related file "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.OAuth.2.1.0\lib\net45\Microsoft.Owin.Security.OAuth.xml".
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Core.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Core.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Dependency "WebGrease, Version=1.5.1.25624, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      Could not resolve this reference. Could not locate the assembly "WebGrease, Version=1.5.1.25624, Culture=neutral, PublicKeyToken=31bf3856ad364e35". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+          For SearchPath "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40".
+          Considered "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\WebGrease.winmd", but it didn't exist.
+          Considered "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\WebGrease.dll", but it didn't exist.
+          Considered "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\WebGrease.exe", but it didn't exist.
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\WebGrease.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\WebGrease.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\WebGrease.exe", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\WebGrease.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\WebGrease.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\WebGrease.exe", but it didn't exist.
+          For SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.5,AssemblyFoldersEx}".
+          Considered AssemblyFoldersEx locations.
+          For SearchPath "{AssemblyFolders}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\WebGrease.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\WebGrease.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\WebGrease.exe", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\100\SDK\Assemblies\WebGrease.winmd", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\100\SDK\Assemblies\WebGrease.dll", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\100\SDK\Assemblies\WebGrease.exe", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft.NET\ADOMD.NET\100\WebGrease.winmd", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft.NET\ADOMD.NET\100\WebGrease.dll", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft.NET\ADOMD.NET\100\WebGrease.exe", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\100\SDK\Assemblies\WebGrease.winmd", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\100\SDK\Assemblies\WebGrease.dll", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\100\SDK\Assemblies\WebGrease.exe", but it didn't exist.
+          Considered "C:\Program Files\IIS\Microsoft Web Deploy V2\WebGrease.winmd", but it didn't exist.
+          Considered "C:\Program Files\IIS\Microsoft Web Deploy V2\WebGrease.dll", but it didn't exist.
+          Considered "C:\Program Files\IIS\Microsoft Web Deploy V2\WebGrease.exe", but it didn't exist.
+          Considered "C:\Program Files (x86)\Microsoft WSE\v3.0\WebGrease.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Microsoft WSE\v3.0\WebGrease.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Microsoft WSE\v3.0\WebGrease.exe", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\WebGrease.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\WebGrease.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\WebGrease.exe", but it didn't exist.
+          For SearchPath "{GAC}".
+          Considered "WebGrease, Version=1.5.1.25624, Culture=neutral, PublicKeyToken=31bf3856ad364e35", which was not found in the GAC.
+          For SearchPath "bin\".
+          Considered "bin\WebGrease.winmd", but it didn't exist.
+          Considered "bin\WebGrease.dll", but it didn't exist.
+          Considered "bin\WebGrease.exe", but it didn't exist.
+      Required by "System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      Required by "Microsoft.AspNet.Web.Optimization.WebForms".
+  Dependency "System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\WebGrease.1.5.2\lib".
+          Considered "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\WebGrease.1.5.2\lib\System.Windows.Forms.winmd", but it didn't exist.
+          Considered "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\WebGrease.1.5.2\lib\System.Windows.Forms.dll", but it didn't exist.
+          Considered "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\WebGrease.1.5.2\lib\System.Windows.Forms.exe", but it didn't exist.
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.winmd", but it didn't exist.
+      Required by "WebGrease".
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Dependency "System.ComponentModel.Composition, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.ComponentModel.Composition.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\WebGrease.1.5.2\lib".
+          Considered "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\WebGrease.1.5.2\lib\System.ComponentModel.Composition.winmd", but it didn't exist.
+          Considered "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\WebGrease.1.5.2\lib\System.ComponentModel.Composition.dll", but it didn't exist.
+          Considered "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\WebGrease.1.5.2\lib\System.ComponentModel.Composition.exe", but it didn't exist.
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.ComponentModel.Composition.winmd", but it didn't exist.
+      Required by "WebGrease".
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Dependency "System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Numerics.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Newtonsoft.Json.5.0.6\lib\net45".
+          Considered "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Newtonsoft.Json.5.0.6\lib\net45\System.Numerics.winmd", but it didn't exist.
+          Considered "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Newtonsoft.Json.5.0.6\lib\net45\System.Numerics.dll", but it didn't exist.
+          Considered "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Newtonsoft.Json.5.0.6\lib\net45\System.Numerics.exe", but it didn't exist.
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Numerics.winmd", but it didn't exist.
+      Required by "Microsoft.Owin.Security.Facebook".
+      Required by "Newtonsoft.Json".
+      Required by "Microsoft.Owin.Security.OAuth".
+      Required by "Microsoft.AspNet.Identity.Owin".
+      Required by "WebGrease".
+      Required by "Microsoft.Owin.Security.MicrosoftAccount".
+      Required by "Microsoft.Owin.Security.Google".
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Dependency "System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Runtime.Serialization.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Newtonsoft.Json.5.0.6\lib\net45".
+          Considered "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Newtonsoft.Json.5.0.6\lib\net45\System.Runtime.Serialization.winmd", but it didn't exist.
+          Considered "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Newtonsoft.Json.5.0.6\lib\net45\System.Runtime.Serialization.dll", but it didn't exist.
+          Considered "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Newtonsoft.Json.5.0.6\lib\net45\System.Runtime.Serialization.exe", but it didn't exist.
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Runtime.Serialization.winmd", but it didn't exist.
+      Required by "EntityFramework.SqlServer".
+      Required by "EntityFramework".
+      Required by "System.Web.Providers".
+      Required by "Newtonsoft.Json".
+      Required by "Microsoft.Owin.Security.OAuth".
+      Required by "Microsoft.AspNet.Identity.Owin".
+      Required by "WebGrease".
+      Required by "Microsoft.Owin.Security.Cookies".
+      Required by "Microsoft.Owin.Security.Facebook".
+      Required by "Microsoft.Owin.Security.MicrosoftAccount".
+      Required by "Microsoft.AspNet.Identity.EntityFramework".
+      Required by "Microsoft.Owin.Security.Google".
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Dependency "System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Transactions.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\EntityFramework.6.1.0\lib\net45".
+          Considered "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\EntityFramework.6.1.0\lib\net45\System.Transactions.winmd", but it didn't exist.
+          Considered "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\EntityFramework.6.1.0\lib\net45\System.Transactions.dll", but it didn't exist.
+          Considered "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\EntityFramework.6.1.0\lib\net45\System.Transactions.exe", but it didn't exist.
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Transactions.winmd", but it didn't exist.
+      Required by "EntityFramework.SqlServer".
+      Required by "EntityFramework".
+      Required by "Microsoft.AspNet.Identity.EntityFramework".
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Dependency "System.Data.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.Entity.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Providers.Core.1.2\lib\net40".
+          Considered "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Providers.Core.1.2\lib\net40\System.Data.Entity.winmd", but it didn't exist.
+          Considered "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Providers.Core.1.2\lib\net40\System.Data.Entity.dll", but it didn't exist.
+          Considered "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Providers.Core.1.2\lib\net40\System.Data.Entity.exe", but it didn't exist.
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.Entity.winmd", but it didn't exist.
+      Required by "System.Web.Providers".
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Dependency "System.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Security.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.2.1.0\lib\net45".
+          Considered "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.2.1.0\lib\net45\System.Security.winmd", but it didn't exist.
+          Considered "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.2.1.0\lib\net45\System.Security.dll", but it didn't exist.
+          Considered "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.2.1.0\lib\net45\System.Security.exe", but it didn't exist.
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Security.winmd", but it didn't exist.
+      Required by "Microsoft.Owin.Security".
+      Required by "Microsoft.Owin.Security.Facebook".
+      Required by "Microsoft.Owin.Security.OAuth".
+      Required by "Microsoft.AspNet.Identity.Owin".
+      Required by "Microsoft.Owin.Security.Cookies".
+      Required by "Microsoft.Owin.Security.MicrosoftAccount".
+      Required by "Microsoft.Owin.Security.Twitter".
+      Required by "Microsoft.Owin.Security.Google".
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Dependency "System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Net.Http.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.Facebook.2.1.0\lib\net45".
+          Considered "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.Facebook.2.1.0\lib\net45\System.Net.Http.winmd", but it didn't exist.
+          Considered "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.Facebook.2.1.0\lib\net45\System.Net.Http.dll", but it didn't exist.
+          Considered "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.Facebook.2.1.0\lib\net45\System.Net.Http.exe", but it didn't exist.
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Net.Http.winmd", but it didn't exist.
+      Required by "Microsoft.Owin.Security.Facebook".
+      Required by "Microsoft.Owin.Security.Google".
+      Required by "Microsoft.Owin.Security.Twitter".
+      Required by "Microsoft.Owin.Security.MicrosoftAccount".
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Dependency "System.Net.Http.WebRequest, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Net.Http.WebRequest.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.Facebook.2.1.0\lib\net45".
+          Considered "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.Facebook.2.1.0\lib\net45\System.Net.Http.WebRequest.winmd", but it didn't exist.
+          Considered "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.Facebook.2.1.0\lib\net45\System.Net.Http.WebRequest.dll", but it didn't exist.
+          Considered "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.Facebook.2.1.0\lib\net45\System.Net.Http.WebRequest.exe", but it didn't exist.
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Net.Http.WebRequest.winmd", but it didn't exist.
+      Required by "Microsoft.Owin.Security.Facebook".
+      Required by "Microsoft.Owin.Security.Google".
+      Required by "Microsoft.Owin.Security.Twitter".
+      Required by "Microsoft.Owin.Security.MicrosoftAccount".
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  There was a conflict between "WebGrease, Version=1.5.2.14234, Culture=neutral, PublicKeyToken=31bf3856ad364e35" and "WebGrease, Version=1.5.1.25624, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      "WebGrease, Version=1.5.2.14234, Culture=neutral, PublicKeyToken=31bf3856ad364e35" was chosen because it was primary and "WebGrease, Version=1.5.1.25624, Culture=neutral, PublicKeyToken=31bf3856ad364e35" was not.
+      References which depend on "WebGrease, Version=1.5.2.14234, Culture=neutral, PublicKeyToken=31bf3856ad364e35" [C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\WebGrease.1.5.2\lib\WebGrease.dll].
+          C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\WebGrease.1.5.2\lib\WebGrease.dll
+            Project file item includes which caused reference "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\WebGrease.1.5.2\lib\WebGrease.dll".
+              WebGrease
+      References which depend on "WebGrease, Version=1.5.1.25624, Culture=neutral, PublicKeyToken=31bf3856ad364e35" [].
+          C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll
+            Project file item includes which caused reference "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll".
+              System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+              Microsoft.AspNet.Web.Optimization.WebForms
+  Consider app.config remapping of assembly "WebGrease, Culture=neutral, PublicKeyToken=31bf3856ad364e35" from Version "1.5.1.25624" [] to Version "1.5.2.14234" [C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\WebGrease.1.5.2\lib\WebGrease.dll] to solve conflict and get rid of warning.
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3247: Found conflicts between different versions of the same dependent assembly. [C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj]
+  AssemblyFoldersEx location: "{Registry:Software\Microsoft\.NETFramework,v4.5,AssemblyFoldersEx}"
+          C:\Program Files (x86)\Microsoft Web Tools\ReferenceAssemblies\12.0\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VSSDK\VisualStudioIntegration\Common\Assemblies\v4.0\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\ReferenceAssemblies\v4.5\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PublicAssemblies\
+          C:\Program Files (x86)\Microsoft.NET\Primary Interop Assemblies\
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.3.0.0\Type Providers\
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.3.0.0\
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.3.1.0\
+          C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\.NETFramework\v4.5\Prototyping\Libraries\
+          C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\.NETFramework\v4.5\Libraries\
+          C:\Program Files\Reference Assemblies\Microsoft\Workflow Manager\1.0\
+          
+          
+          C:\Program Files\Microsoft SDKs\Azure\.NET SDK\v2.5\bin\plugins\Diagnostics\
+          C:\Program Files\Microsoft SDKs\Azure\.NET SDK\v2.5\ref\Caching\
+          C:\Program Files (x86)\Microsoft WCF Data Services\5.6\bin\.NETFramework\
+          C:\Program Files\Reference Assemblies\Microsoft\VSTO40\v4.0.Framework\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Visual Studio Tools for Office\PIA\Office15\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Visual Studio Tools for Office\PIA\Office14\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Visual Studio Tools for Office\PIA\Common\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\SharePoint\PublicAssemblies\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\ReferenceAssemblies\v4.0\
+          C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\
+          C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\16\TEMPLATE\WorkflowActivities\
+          
+          C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\WorkflowActivities\
+          C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\16\ISAPI\
+          C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\15\ISAPI\
+          C:\Program Files (x86)\Microsoft SDKs\RIA Services\v1.0\Libraries\Server\
+          C:\Program Files (x86)\Open XML SDK\V2.5\lib
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.3.0.0\Type Providers\
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.3.0.0\
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.3.1.0\
+          C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\.NETFramework\v4.0\Prototyping\Libraries\
+          C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\.NETFramework\v4.0\Libraries\
+          C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\
+          C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\
+          
+          C:\Program Files\Reference Assemblies\Microsoft\Microsoft Identity Extensions\1.0\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\SharePoint\PublicAssemblies\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VSSDK\VisualStudioIntegration\Common\Assemblies\v2.0\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\ReferenceAssemblies\v2.0\
+          C:\Program Files\Microsoft SDKs\Azure\.NET SDK\v2.5\ref
+          C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\PublicAssemblies\
+          C:\Program Files (x86)\Microsoft Chart Controls\Assemblies
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v2.0\2.3.0.0\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Blend\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Blend\
+          C:\Program Files\Microsoft SDKs\Azure\.NET SDK\v2.5\ref
+Done executing task "ResolveAssemblyReference".
+Done building target "ResolveAssemblyReferences" in project "Grunt_DEMO.csproj".
+Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+Target "AfterResolveReferences" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "ResolveReferences" depends on it):
+Done building target "AfterResolveReferences" in project "Grunt_DEMO.csproj".
+Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+Target "ImplicitlyExpandDesignTimeFacades" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.NetFramework.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "ResolveReferences" depends on it):
+Task "Message" skipped, due to false condition; ('%(ReferencePath.ResolvedFrom)' == 'ImplicitlyExpandDesignTimeFacades') was evaluated as ('{HintPathFromItem}' == 'ImplicitlyExpandDesignTimeFacades').
+Task "Message" skipped, due to false condition; ('%(ReferencePath.ResolvedFrom)' == 'ImplicitlyExpandDesignTimeFacades') was evaluated as ('{TargetFrameworkDirectory}' == 'ImplicitlyExpandDesignTimeFacades').
+Task "Message" skipped, due to false condition; ('%(ReferencePath.ResolvedFrom)' == 'ImplicitlyExpandDesignTimeFacades') was evaluated as ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll' == 'ImplicitlyExpandDesignTimeFacades').
+Done building target "ImplicitlyExpandDesignTimeFacades" in project "Grunt_DEMO.csproj".
+Target "ResolveReferences" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "CoreBuild" depends on it):
+Done building target "ResolveReferences" in project "Grunt_DEMO.csproj".
+Target "ValidationExtension" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "PrepareResources" depends on it):
+Task "WorkflowBuildMessageTask" skipped, due to false condition; ('$(SkipWorkflowValidation)'!='' and '$(SkipWorkflowValidation)'!='true' and '$(SkipWorkflowValidation)'!='false') was evaluated as (''!='' and ''!='true' and ''!='false').
+Done building target "ValidationExtension" in project "Grunt_DEMO.csproj".
+Target "ExpressionBuildExtension" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "PrepareResources" depends on it):
+Task "WorkflowBuildMessageTask" skipped, due to false condition; ('$(DisableWorkflowCompiledExpressions)'!='' and '$(DisableWorkflowCompiledExpressions)'!='true' and '$(DisableWorkflowCompiledExpressions)'!='false') was evaluated as (''!='' and ''!='true' and ''!='false').
+Done building target "ExpressionBuildExtension" in project "Grunt_DEMO.csproj".
+Target "XamlMarkupCompilePass1" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+Target "XamlMarkupCompileReadGeneratedFileList" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+Target "XamlMarkupCompileAddFilesGenerated" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+Target "XamlMarkupCompilePass2" skipped, due to false condition; ('$(XamlRequiresCompilationPass2)' == 'true' ) was evaluated as ('false' == 'true' ).
+Target "XamlMarkupCompileReadPass2Flag" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+Target "XamlMarkupCompileAddExtensionFilesGenerated" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+Target "AddDeferredValidationErrorsFileToFileWrites" skipped, due to false condition; (Exists('$(DeferredValidationErrorsFileName)')) was evaluated as (Exists('obj\Debug\\AC2C1ABA-CCF6-44D4-8127-588FD4D0A860-DeferredValidationErrors.xml')).
+Target "ReportValidationBuildExtensionErrors" skipped, due to false condition; ('$(SkipWorkflowValidation)' != 'true' and ('@(XamlPage)' != '' or '@(XamlAppDef)' != '')) was evaluated as ('' != 'true' and ('' != '' or '' != '')).
+Target "MarkupCompilePass1" skipped, due to false condition; ('@(Page)' != '' or '@(ApplicationDefinition)' != '' ) was evaluated as ('' != '' or '' != '' ).
+Target "AfterMarkupCompilePass1" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "PrepareResources" depends on it):
+Done building target "AfterMarkupCompilePass1" in project "Grunt_DEMO.csproj".
+Target "MarkupCompilePass2ForMainAssembly" skipped, due to false condition; ('$(_RequireMCPass2ForMainAssembly)' == 'true' ) was evaluated as ('false' == 'true' ).
+Target "FileClassification" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "PrepareResources" depends on it):
+Task "FileClassifier" skipped, due to false condition; ('@(GeneratedBaml)' != '' or '@(Resource)' != '' or '@(Font)' != '') was evaluated as ('' != '' or '' != '' or '' != '').
+Task "Message" skipped, due to false condition; ('$(MSBuildTargetsVerbose)'=='true') was evaluated as (''=='true').
+Task "Message" skipped, due to false condition; ('$(MSBuildTargetsVerbose)'=='true') was evaluated as (''=='true').
+Done building target "FileClassification" in project "Grunt_DEMO.csproj".
+Target "MainResourcesGeneration" skipped, due to false condition; ('@(MainEmbeddedFiles)' != '') was evaluated as ('' != '').
+Target "AssignWinFXEmbeddedResource" skipped, due to false condition; ('@(WinFXEmbeddedResource)' != '') was evaluated as ('' != '').
+Target "AssignTargetPaths" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "PrepareResourceNames" depends on it):
+Using "AssignTargetPath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "AssignTargetPath"
+Done executing task "AssignTargetPath".
+Task "AssignTargetPath"
+Done executing task "AssignTargetPath".
+Task "AssignTargetPath"
+Done executing task "AssignTargetPath".
+Task "AssignTargetPath"
+Done executing task "AssignTargetPath".
+Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and '.js'=='.manifest').
+Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and '.html'=='.manifest').
+Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and '.config'=='.manifest').
+Done building target "AssignTargetPaths" in project "Grunt_DEMO.csproj".
+Target "AssignTargetPaths" skipped. Previously built successfully.
+Target "SplitResourcesByCulture" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "PrepareResourceNames" depends on it):
+Task "Warning" skipped, due to false condition; ('@(ResxWithNoCulture)'!='') was evaluated as (''!='').
+Task "Warning" skipped, due to false condition; ('@(ResxWithCulture)'!='') was evaluated as (''!='').
+Task "Warning" skipped, due to false condition; ('@(NonResxWithCulture)'!='') was evaluated as (''!='').
+Task "Warning" skipped, due to false condition; ('@(NonResxWithNoCulture)'!='') was evaluated as (''!='').
+Using "AssignCulture" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "AssignCulture"
+Done executing task "AssignCulture".
+Done building target "SplitResourcesByCulture" in project "Grunt_DEMO.csproj".
+Target "CreateManifestResourceNames" skipped, due to false condition; ('@(EmbeddedResource)' != '') was evaluated as ('' != '').
+Target "CreateCustomManifestResourceNames" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "PrepareResourceNames" depends on it):
+Done building target "CreateCustomManifestResourceNames" in project "Grunt_DEMO.csproj".
+Target "PrepareResourceNames" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "PrepareResources" depends on it):
+Done building target "PrepareResourceNames" in project "Grunt_DEMO.csproj".
+Target "ResolveAssemblyReferences" skipped. Previously built successfully.
+Target "SplitResourcesByCulture" skipped. Previously built successfully.
+Target "BeforeResGen" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "ResGen" depends on it):
+Done building target "BeforeResGen" in project "Grunt_DEMO.csproj".
+Target "CoreResGen" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "ResGen" depends on it):
+Task "GenerateResource" skipped, due to false condition; ('%(EmbeddedResource.Type)' == 'Resx' and '%(EmbeddedResource.GenerateResource)' != 'false' and '$(GenerateResourceMSBuildRuntime)' != 'CLR2') was evaluated as ('' == 'Resx' and '' != 'false' and 'CLR4' != 'CLR2').
+Task "GenerateResource" skipped, due to false condition; ('%(EmbeddedResource.Type)' == 'Resx' and '%(EmbeddedResource.GenerateResource)' != 'false' and '$(GenerateResourceMSBuildRuntime)' == 'CLR2') was evaluated as ('' == 'Resx' and '' != 'false' and 'CLR4' == 'CLR2').
+Done building target "CoreResGen" in project "Grunt_DEMO.csproj".
+Target "AfterResGen" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "ResGen" depends on it):
+Done building target "AfterResGen" in project "Grunt_DEMO.csproj".
+Target "ResGen" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "PrepareResources" depends on it):
+Done building target "ResGen" in project "Grunt_DEMO.csproj".
+Target "CompileLicxFiles" skipped, due to false condition; ('@(_LicxFile)'!='') was evaluated as (''!='').
+Target "PrepareResources" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "CoreBuild" depends on it):
+Done building target "PrepareResources" in project "Grunt_DEMO.csproj".
+Target "ResolveKeySource" skipped, due to false condition; ($(SignManifests) == 'true' or $(SignAssembly) == 'true') was evaluated as ( == 'true' or  == 'true').
+Target "ResolveReferences" skipped. Previously built successfully.
+Target "ResolveKeySource" skipped, due to false condition; ($(SignManifests) == 'true' or $(SignAssembly) == 'true') was evaluated as ( == 'true' or  == 'true').
+Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+Target "_SetExternalWin32ManifestProperties" skipped, due to false condition; ('$(GenerateClickOnceManifests)'=='true' or '@(NativeReference)'!='' or '@(ResolvedIsolatedComModules)'!='') was evaluated as (''=='true' or ''!='' or ''!='').
+Target "_SetEmbeddedWin32ManifestProperties" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "SetWin32ManifestProperties" depends on it):
+Using "GetFrameworkPath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "GetFrameworkPath"
+Done executing task "GetFrameworkPath".
+Done building target "_SetEmbeddedWin32ManifestProperties" in project "Grunt_DEMO.csproj".
+Target "SetWin32ManifestProperties" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "Compile" depends on it):
+Done building target "SetWin32ManifestProperties" in project "Grunt_DEMO.csproj".
+Target "_GenerateCompileInputs" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "Compile" depends on it):
+Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithNoCulture)'!='' and '%(ManifestResourceWithNoCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithNoCultureOnDisk)'!='' and '%(ManifestNonResxWithNoCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+Done building target "_GenerateCompileInputs" in project "Grunt_DEMO.csproj".
+Target "PrepareForBuild" skipped. Previously built successfully.
+Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+Target "_SetTargetFrameworkMonikerAttribute" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.CSharp.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "GenerateTargetFrameworkMonikerAttribute" depends on it):
+Done building target "_SetTargetFrameworkMonikerAttribute" in project "Grunt_DEMO.csproj".
+Target "GenerateTargetFrameworkMonikerAttribute" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "BeforeCompile" depends on it):
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+Input files: C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.targets
+Output files: C:\Users\gsharm11\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cs
+Done building target "GenerateTargetFrameworkMonikerAttribute" in project "Grunt_DEMO.csproj".
+Target "GenerateAdditionalSources" skipped, due to false condition; ('@(AssemblyAttributes)' != '' and '$(GenerateAdditionalSources)' == 'true') was evaluated as ('' != '' and '' == 'true').
+Target "BeforeCompile" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "Compile" depends on it):
+Done building target "BeforeCompile" in project "Grunt_DEMO.csproj".
+Target "_TimeStampBeforeCompile" skipped, due to false condition; ('$(RunPostBuildEvent)'=='OnOutputUpdated' or ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library')) was evaluated as (''=='OnOutputUpdated' or (''=='true' and 'Library'=='library')).
+Target "_ComputeNonExistentFileProperty" skipped, due to false condition; (('$(BuildingInsideVisualStudio)' == 'true') and ('$(BuildingOutOfProcess)' != 'true') and (('$(BuildingProject)' == 'false') or ('$(UseHostCompilerIfAvailable)' == 'true'))) was evaluated as (('' == 'true') and ('' != 'true') and (('true' == 'false') or ('true' == 'true'))).
+Target "PreXsdCodeGen" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.ServiceModel.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "CoreCompile" depends on it):
+Using "CallTarget" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "CallTarget"
+Target "CleanXsdCodeGen" skipped. Previously built successfully.
+Done executing task "CallTarget".
+Done building target "PreXsdCodeGen" in project "Grunt_DEMO.csproj".
+Target "XsdCodeGen" skipped, due to false condition; ( '$(XsdCodeGenPreCondition)' == 'True' ) was evaluated as ( 'False' == 'True' ).
+Target "CoreCompile" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.CSharp.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "Compile" depends on it):
+Building target "CoreCompile" completely.
+Output file "obj\Debug\Grunt_DEMO.dll" does not exist.
+Using "Csc" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "Csc"
+  C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /platform:x86 /errorreport:prompt /warn:4 /define:DEBUG;TRACE /highentropyva+ /reference:C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll /reference:C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\AspNet.ScriptManager.bootstrap.3.0.0\lib\net45\AspNet.ScriptManager.bootstrap.dll /reference:C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\AspNet.ScriptManager.jQuery.1.10.2\lib\net45\AspNet.ScriptManager.jQuery.dll /reference:C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll /reference:C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.dll /reference:C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.dll /reference:C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Identity.Core.2.0.0\lib\net45\Microsoft.AspNet.Identity.Core.dll /reference:C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Identity.EntityFramework.2.0.0\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll /reference:C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Identity.Owin.2.0.0\lib\net45\Microsoft.AspNet.Identity.Owin.dll /reference:C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Web.Optimization.WebForms.1.1.3\lib\net45\Microsoft.AspNet.Web.Optimization.WebForms.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Microsoft.CSharp.dll" /reference:C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.2.1.0\lib\net45\Microsoft.Owin.dll /reference:C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Host.SystemWeb.2.1.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll /reference:C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.Cookies.2.1.0\lib\net45\Microsoft.Owin.Security.Cookies.dll /reference:C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.2.1.0\lib\net45\Microsoft.Owin.Security.dll /reference:C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.Facebook.2.1.0\lib\net45\Microsoft.Owin.Security.Facebook.dll /reference:C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.Google.2.1.0\lib\net45\Microsoft.Owin.Security.Google.dll /reference:C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.MicrosoftAccount.2.1.0\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll /reference:C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.OAuth.2.1.0\lib\net45\Microsoft.Owin.Security.OAuth.dll /reference:C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.Twitter.2.1.0\lib\net45\Microsoft.Owin.Security.Twitter.dll /reference:C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.ScriptManager.MSAjax.5.0.0\lib\net45\Microsoft.ScriptManager.MSAjax.dll /reference:C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.ScriptManager.WebForms.5.0.0\lib\net45\Microsoft.ScriptManager.WebForms.dll /reference:C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /reference:C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll /reference:C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Owin.1.0\lib\net40\Owin.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.ComponentModel.DataAnnotations.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Configuration.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.DataSetExtensions.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.EnterpriseServices.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Web.ApplicationServices.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Web.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Web.DynamicData.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Web.Entity.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Web.Extensions.dll" /reference:C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll /reference:C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Providers.Core.1.2\lib\net40\System.Web.Providers.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Web.Services.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.Linq.dll" /reference:C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\WebGrease.1.5.2\lib\WebGrease.dll /debug+ /debug:full /optimize- /out:obj\Debug\Grunt_DEMO.dll /subsystemversion:6.00 /target:library /utf8output Account\Confirm.aspx.cs Account\Confirm.aspx.designer.cs Account\Forgot.aspx.cs Account\Forgot.aspx.designer.cs Account\Login.aspx.cs Account\Login.aspx.designer.cs Account\Manage.aspx.cs Account\Manage.aspx.designer.cs Account\OpenAuthProviders.ascx.cs Account\OpenAuthProviders.ascx.designer.cs Account\Register.aspx.cs Account\Register.aspx.designer.cs Account\RegisterExternalLogin.aspx.cs Account\RegisterExternalLogin.aspx.designer.cs Account\ResetPassword.aspx.cs Account\ResetPassword.aspx.designer.cs Account\ResetPasswordConfirmation.aspx.cs Account\ResetPasswordConfirmation.aspx.designer.cs App_Start\BundleConfig.cs About.aspx.cs About.aspx.designer.cs App_Start\IdentityConfig.cs App_Start\RouteConfig.cs App_Start\Startup.Auth.cs Contact.aspx.cs Contact.aspx.designer.cs Default.aspx.cs Default.aspx.designer.cs Global.asax.cs Models\IdentityModels.cs Properties\AssemblyInfo.cs Site.Master.cs Site.Master.designer.cs Site.Mobile.Master.cs Site.Mobile.Master.designer.cs Startup.cs ViewSwitcher.ascx.cs ViewSwitcher.ascx.designer.cs "C:\Users\gsharm11\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cs"
+  Microsoft (R) Visual C# Compiler version 4.0.30319.18408
+  
+  for Microsoft (R) .NET Framework 4.5
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+Done executing task "Csc".
+Task "CallTarget" skipped, due to false condition; ('$(TargetsTriggeredByCompilation)' != '') was evaluated as ('' != '').
+Done building target "CoreCompile" in project "Grunt_DEMO.csproj".
+Target "_TimeStampAfterCompile" skipped, due to false condition; ('$(RunPostBuildEvent)'=='OnOutputUpdated' or ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library')) was evaluated as (''=='OnOutputUpdated' or (''=='true' and 'Library'=='library')).
+Target "AfterCompile" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "Compile" depends on it):
+Done building target "AfterCompile" in project "Grunt_DEMO.csproj".
+Target "PrepareResourcesForSatelliteAssemblies" skipped, due to false condition; ('$(UICulture)' != '') was evaluated as ('' != '').
+Target "MergeLocalizationDirectives" skipped, due to false condition; ('@(GeneratedLocalizationFiles)' !='') was evaluated as ('' !='').
+Target "AfterCompileWinFX" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "_AfterCompileWinFXInternal" depends on it):
+Done building target "AfterCompileWinFX" in project "Grunt_DEMO.csproj".
+Target "_AfterCompileWinFXInternal" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "Compile" depends on it):
+Done building target "_AfterCompileWinFXInternal" in project "Grunt_DEMO.csproj".
+Target "Compile" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "CoreBuild" depends on it):
+Done building target "Compile" in project "Grunt_DEMO.csproj".
+Target "DeferredValidation" skipped, due to false condition; ('$(SkipWorkflowValidation)' != 'true' and ('@(XamlPage)' != '' or '@(XamlAppDef)' != '')) was evaluated as ('' != 'true' and ('' != '' or '' != '')).
+Target "ExportWindowsMDFile" skipped, due to false condition; ('$(ExportWinMDFile)' == 'true') was evaluated as ('' == 'true').
+Target "UnmanagedUnregistration" skipped, due to false condition; ((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+                    ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+                   Exists('@(_UnmanagedRegistrationCache)')) was evaluated as ((('' != '' or '' != 'true' or 'Library' != 'library') or
+                    ('' == '')) and
+                   Exists('obj\Grunt_DEMO.csproj.UnmanagedRegistration.cache')).
+Target "GenerateSerializationAssemblies" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+Target "_GenerateSatelliteAssemblyInputs" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "CreateSatelliteAssemblies" depends on it):
+Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+Done building target "_GenerateSatelliteAssemblyInputs" in project "Grunt_DEMO.csproj".
+Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(EmbeddedResource->'%(WithCulture)') != '') was evaluated as ( != '').
+Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '') was evaluated as ('' != '').
+Target "CreateSatelliteAssemblies" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "CoreBuild" depends on it):
+Done building target "CreateSatelliteAssemblies" in project "Grunt_DEMO.csproj".
+Target "GenerateManifests" skipped, due to false condition; ('$(GenerateClickOnceManifests)'=='true' or '@(NativeReference)'!='' or '@(ResolvedIsolatedComModules)'!='' or '$(GenerateAppxManifest)' == 'true') was evaluated as (''=='true' or ''!='' or ''!='' or '' == 'true').
+Target "GetTargetPath" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "CoreBuild" depends on it):
+Done building target "GetTargetPath" in project "Grunt_DEMO.csproj".
+Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(EmbeddedResource->'%(WithCulture)') != '') was evaluated as ( != '').
+Target "_CopyFilesMarkedCopyLocal" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "CopyFilesToOutputDirectory" depends on it):
+Using "Copy" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "Copy"
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll" to "bin\Antlr3.Runtime.dll".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\AspNet.ScriptManager.bootstrap.3.0.0\lib\net45\AspNet.ScriptManager.bootstrap.dll" to "bin\AspNet.ScriptManager.bootstrap.dll".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\AspNet.ScriptManager.jQuery.1.10.2\lib\net45\AspNet.ScriptManager.jQuery.dll" to "bin\AspNet.ScriptManager.jQuery.dll".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll" to "bin\EntityFramework.dll".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.dll" to "bin\EntityFramework.SqlServer.dll".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.dll" to "bin\Microsoft.AspNet.FriendlyUrls.dll".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Identity.Core.2.0.0\lib\net45\Microsoft.AspNet.Identity.Core.dll" to "bin\Microsoft.AspNet.Identity.Core.dll".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Identity.EntityFramework.2.0.0\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll" to "bin\Microsoft.AspNet.Identity.EntityFramework.dll".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Identity.Owin.2.0.0\lib\net45\Microsoft.AspNet.Identity.Owin.dll" to "bin\Microsoft.AspNet.Identity.Owin.dll".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Web.Optimization.WebForms.1.1.3\lib\net45\Microsoft.AspNet.Web.Optimization.WebForms.dll" to "bin\Microsoft.AspNet.Web.Optimization.WebForms.dll".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.2.1.0\lib\net45\Microsoft.Owin.dll" to "bin\Microsoft.Owin.dll".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Host.SystemWeb.2.1.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll" to "bin\Microsoft.Owin.Host.SystemWeb.dll".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.Cookies.2.1.0\lib\net45\Microsoft.Owin.Security.Cookies.dll" to "bin\Microsoft.Owin.Security.Cookies.dll".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.2.1.0\lib\net45\Microsoft.Owin.Security.dll" to "bin\Microsoft.Owin.Security.dll".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.Facebook.2.1.0\lib\net45\Microsoft.Owin.Security.Facebook.dll" to "bin\Microsoft.Owin.Security.Facebook.dll".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.Google.2.1.0\lib\net45\Microsoft.Owin.Security.Google.dll" to "bin\Microsoft.Owin.Security.Google.dll".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.MicrosoftAccount.2.1.0\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll" to "bin\Microsoft.Owin.Security.MicrosoftAccount.dll".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.OAuth.2.1.0\lib\net45\Microsoft.Owin.Security.OAuth.dll" to "bin\Microsoft.Owin.Security.OAuth.dll".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.Twitter.2.1.0\lib\net45\Microsoft.Owin.Security.Twitter.dll" to "bin\Microsoft.Owin.Security.Twitter.dll".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.ScriptManager.MSAjax.5.0.0\lib\net45\Microsoft.ScriptManager.MSAjax.dll" to "bin\Microsoft.ScriptManager.MSAjax.dll".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.ScriptManager.WebForms.5.0.0\lib\net45\Microsoft.ScriptManager.WebForms.dll" to "bin\Microsoft.ScriptManager.WebForms.dll".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" to "bin\Microsoft.Web.Infrastructure.dll".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll" to "bin\Newtonsoft.Json.dll".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Owin.1.0\lib\net40\Owin.dll" to "bin\Owin.dll".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll" to "bin\System.Web.Optimization.dll".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Providers.Core.1.2\lib\net40\System.Web.Providers.dll" to "bin\System.Web.Providers.dll".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\WebGrease.1.5.2\lib\WebGrease.dll" to "bin\WebGrease.dll".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.xml" to "bin\System.Web.Optimization.xml".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.pdb" to "bin\Antlr3.Runtime.pdb".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.xml" to "bin\Newtonsoft.Json.xml".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.xml" to "bin\Microsoft.AspNet.FriendlyUrls.xml".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.xml" to "bin\EntityFramework.xml".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.xml" to "bin\EntityFramework.SqlServer.xml".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Identity.Core.2.0.0\lib\net45\Microsoft.AspNet.Identity.Core.xml" to "bin\Microsoft.AspNet.Identity.Core.xml".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Identity.Owin.2.0.0\lib\net45\Microsoft.AspNet.Identity.Owin.xml" to "bin\Microsoft.AspNet.Identity.Owin.xml".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.AspNet.Identity.EntityFramework.2.0.0\lib\net45\Microsoft.AspNet.Identity.EntityFramework.xml" to "bin\Microsoft.AspNet.Identity.EntityFramework.xml".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.2.1.0\lib\net45\Microsoft.Owin.xml" to "bin\Microsoft.Owin.xml".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Host.SystemWeb.2.1.0\lib\net45\Microsoft.Owin.Host.SystemWeb.xml" to "bin\Microsoft.Owin.Host.SystemWeb.xml".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.2.1.0\lib\net45\Microsoft.Owin.Security.xml" to "bin\Microsoft.Owin.Security.xml".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.Facebook.2.1.0\lib\net45\Microsoft.Owin.Security.Facebook.xml" to "bin\Microsoft.Owin.Security.Facebook.xml".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.Cookies.2.1.0\lib\net45\Microsoft.Owin.Security.Cookies.xml" to "bin\Microsoft.Owin.Security.Cookies.xml".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.Google.2.1.0\lib\net45\Microsoft.Owin.Security.Google.xml" to "bin\Microsoft.Owin.Security.Google.xml".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.Twitter.2.1.0\lib\net45\Microsoft.Owin.Security.Twitter.xml" to "bin\Microsoft.Owin.Security.Twitter.xml".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.MicrosoftAccount.2.1.0\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.xml" to "bin\Microsoft.Owin.Security.MicrosoftAccount.xml".
+  Copying file from "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\packages\Microsoft.Owin.Security.OAuth.2.1.0\lib\net45\Microsoft.Owin.Security.OAuth.xml" to "bin\Microsoft.Owin.Security.OAuth.xml".
+Done executing task "Copy".
+Done building target "_CopyFilesMarkedCopyLocal" in project "Grunt_DEMO.csproj".
+Target "AssignTargetPaths" skipped. Previously built successfully.
+Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+Target "GetCopyToOutputDirectoryXamlAppDefs" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+Task "AssignTargetPath"
+Done executing task "AssignTargetPath".
+Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "Grunt_DEMO.csproj".
+Target "GetCopyToOutputDirectoryItems" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+Task "MSBuild" skipped, due to false condition; ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') was evaluated as ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
+Task "AssignTargetPath"
+Done executing task "AssignTargetPath".
+Done building target "GetCopyToOutputDirectoryItems" in project "Grunt_DEMO.csproj".
+Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
+Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) was evaluated as ( '' != '' ).
+Target "_CopySourceItemsToOutputDirectory" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "CopyFilesToOutputDirectory" depends on it):
+Done building target "_CopySourceItemsToOutputDirectory" in project "Grunt_DEMO.csproj".
+Target "_CopyAppConfigFile" skipped, due to false condition; ( '@(AppConfigWithTargetPath)' != '' ) was evaluated as ( '' != '' ).
+Target "_CopyManifestFiles" skipped, due to false condition; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) was evaluated as ( ''=='true' or ''=='true' ).
+Target "_CheckForCompileOutputs" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "CopyFilesToOutputDirectory" depends on it):
+Done building target "_CheckForCompileOutputs" in project "Grunt_DEMO.csproj".
+Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+Target "CopyFilesToOutputDirectory" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "PrepareForRun" depends on it):
+Task "Copy"
+  Copying file from "obj\Debug\Grunt_DEMO.dll" to "bin\Grunt_DEMO.dll".
+Done executing task "Copy".
+Task "Message"
+  Grunt_DEMO -> C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\bin\Grunt_DEMO.dll
+Done executing task "Message".
+Task "Copy" skipped, due to false condition; ('@(AddModules)' != '') was evaluated as ('' != '').
+Task "Copy" skipped, due to false condition; ('$(_SGenDllCreated)'=='true') was evaluated as ('false'=='true').
+Task "Copy"
+  Copying file from "obj\Debug\Grunt_DEMO.pdb" to "bin\Grunt_DEMO.pdb".
+Done executing task "Copy".
+Task "Copy" skipped, due to false condition; ('$(_DocumentationFileProduced)'=='true') was evaluated as ('false'=='true').
+Task "Copy" skipped, due to false condition; ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '') was evaluated as ('' != '').
+Task "Copy" skipped, due to false condition; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) was evaluated as ('' != '' or '' != '' or '' != '' or '' != '' ).
+Task "Copy" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') was evaluated as ('' != 'true' and '' != '').
+Task "Message" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') was evaluated as ('' != 'true' and '' != '').
+Done building target "CopyFilesToOutputDirectory" in project "Grunt_DEMO.csproj".
+Target "_GetSilverlightApplications" skipped, due to false condition; ('$(SilverlightApplicationList)' != '') was evaluated as ('' != '').
+Target "CopySilverlightApplications" in file "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "PrepareForRun" depends on it):
+Task "MSBuild" skipped, due to false condition; ('@(_SilverlightApplications)' != '') was evaluated as ('' != '').
+Task "MSBuild" skipped, due to false condition; ('$(BuildingInsideVisualStudio)' != 'true' and '@(_SilverlightApplications)' != '') was evaluated as ('' != 'true' and '' != '').
+Task "CopyFilesToFolders" skipped, due to false condition; ('@(_SilverlightXapFiles)' != '') was evaluated as ('' != '').
+Task "Warning" skipped, due to false condition; ('@(_SilverlightApplicationsNotExist)'!='') was evaluated as (''!='').
+Done building target "CopySilverlightApplications" in project "Grunt_DEMO.csproj".
+Target "_CopyBinDeployableAssemblies" skipped, due to false condition; (Exists('$(MSBuildProjectDirectory)\_bin_deployableAssemblies')) was evaluated as (Exists('C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\_bin_deployableAssemblies')).
+Target "_CopyWebApplication" skipped, due to false condition; (!$(Disable_CopyWebApplication) And '$(OutDir)' != '$(OutputPath)') was evaluated as (!False And 'bin\' != 'bin\').
+Target "_BuiltWebOutputGroupOutput" in file "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "PrepareForRun" depends on it):
+Using "CreateItem" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "CreateItem"
+Done executing task "CreateItem".
+Task "CreateItem" skipped, due to false condition; ('$(OutDir)' != '$(OutputPath)') was evaluated as ('bin\' != 'bin\').
+Done building target "_BuiltWebOutputGroupOutput" in project "Grunt_DEMO.csproj".
+Target "PrepareForRun" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "CoreBuild" depends on it):
+Done building target "PrepareForRun" in project "Grunt_DEMO.csproj".
+Target "UnmanagedRegistration" skipped, due to false condition; ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library') was evaluated as (''=='true' and 'Library'=='library').
+Target "_CheckForCompileOutputs" skipped. Previously built successfully.
+Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+Target "_CleanGetCurrentAndPriorFileWrites" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "IncrementalClean" depends on it):
+Task "ReadLinesFromFile"
+Done executing task "ReadLinesFromFile".
+Using "ConvertToAbsolutePath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "ConvertToAbsolutePath"
+Done executing task "ConvertToAbsolutePath".
+Task "FindUnderPath"
+  Comparison path is "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO".
+Done executing task "FindUnderPath".
+Task "FindUnderPath"
+  Comparison path is "bin\".
+Done executing task "FindUnderPath".
+Task "FindUnderPath"
+  Comparison path is "obj\Debug\".
+Done executing task "FindUnderPath".
+Task "RemoveDuplicates"
+Done executing task "RemoveDuplicates".
+Done building target "_CleanGetCurrentAndPriorFileWrites" in project "Grunt_DEMO.csproj".
+Target "IncrementalClean" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "CoreBuild" depends on it):
+Task "FindUnderPath"
+  Comparison path is "bin\".
+Done executing task "FindUnderPath".
+Task "FindUnderPath"
+  Comparison path is "obj\Debug\".
+Done executing task "FindUnderPath".
+Task "Delete"
+Done executing task "Delete".
+Task "RemoveDuplicates"
+Done executing task "RemoveDuplicates".
+Task "WriteLinesToFile"
+Done executing task "WriteLinesToFile".
+Done building target "IncrementalClean" in project "Grunt_DEMO.csproj".
+Target "PostBuildEvent" skipped, due to false condition; ('$(PostBuildEvent)' != '' and ('$(RunPostBuildEvent)' != 'OnOutputUpdated' or '$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)')) was evaluated as ('' != '' and ('' != 'OnOutputUpdated' or '' != '')).
+Target "CoreBuild" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "Build" depends on it):
+Done building target "CoreBuild" in project "Grunt_DEMO.csproj".
+Target "AfterBuild" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "Build" depends on it):
+Done building target "AfterBuild" in project "Grunt_DEMO.csproj".
+Target "Build" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "Rebuild" depends on it):
+Done building target "Build" in project "Grunt_DEMO.csproj".
+Target "AfterRebuild" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (target "Rebuild" depends on it):
+Done building target "AfterRebuild" in project "Grunt_DEMO.csproj".
+Target "Rebuild" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (entry point):
+Done building target "Rebuild" in project "Grunt_DEMO.csproj".
+Done Building Project "C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (rebuild target(s)).
+
+
+Build succeeded.
+
+"C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj" (rebuild target) (1) ->
+(ResolveAssemblyReferences target) -> 
+  C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3247: Found conflicts between different versions of the same dependent assembly. [C:\Users\gsharm11\Documents\GitHub\GruntDEMO\Grunt_DEMO\Grunt_DEMO.csproj]
+
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
