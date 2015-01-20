@@ -24,12 +24,12 @@ module.exports = function (grunt) {
     */
 
     curl: {
-        'task-name': {
+        'GetArtifactory': {
             src: {
-                url: 'http://maven.ampf.com/artifactory/npm-local/data1.0.1.js'
+                url: 'http://maven.ampf.com/artifactory/npm-local/data2.0.1.js'
                         
             },
-            dest:'dev/data.js'
+            dest:'JSScripts/data.js'
         }
     }
 });
