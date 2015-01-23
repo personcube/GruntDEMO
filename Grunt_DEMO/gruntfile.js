@@ -37,7 +37,7 @@ module.exports = function (grunt) {
                 url: 'http://maven.ampf.com/artifactory/npm-local/data2.0.1.js'
                         
             },
-            dest: 'JSScripts' + today+'/data.js'
+            dest: 'JSScripts/data'+ today+'.js'
         }
     }
 });
