@@ -9,7 +9,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-ts": "^2.0.1"
+   "grunt": ">=0.4",
+    "grunt-cli": ">=0.1",
+    "grunt-curl": ">=2.0.0"
   }
 }
