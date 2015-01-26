@@ -1,0 +1,20 @@
+{
+  "name" : "grunttestWithDATA",
+  "description" : "My grunt test",
+  "version" : "1.0.0",
+  "author" : "Matt Perrault",
+  "repository" : {
+    "type" : "git",
+    "url" : "git@git"
+  },
+  "main" : "data-2.0.2.js",
+  "dist" : {
+    "tarball" : "http://maven.qa.ampf.com/artifactory/npm-local/grunttestWithDATA/-/grunttestWithDATA-1.0.0.tgz",
+    "shasum" : "370d394db8e015112818f4cfb7c24933f6265649"
+  },
+  "keywords" : [ "gruntest" ],
+  "license" : "ISC",
+  "scripts" : {
+    "test" : "ping google.com"
+  }
+}
